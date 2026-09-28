@@ -1,39 +1,49 @@
 //%attributes = {}
-C_LONGINT:C283($1)
+#DECLARE($params : Object)
+
+var $window; $i : Integer
+var $found : Boolean
+var $dataClass; $path; $project : Text
+var $x; $y; $bottom; $right : Integer
+ARRAY LONGINT($windows; 0)
 
 Case of 
-	: (Count parameters:C259=0)
-		
-		var $dataClass; $project; $path : Text
-		For each ($dataClass; ds:C1482)
-			If (ds:C1482[$dataClass].getCount()=0)
-				$path:=File:C1566("/RESOURCES/"+$dataClass+".4ie").platformPath
-				If (Test path name:C476($path)=Is a document:K24:1)
-					$project:=File:C1566("/RESOURCES/"+$dataClass+".4si").getText()
-					IMPORT DATA:C665($path; $project)
-				End if 
-			End if 
-		End for each 
-		
-		$pss:=New process:C317(Current method name:C684; 64000; Current method name:C684; Red:K11:4)
-		
-	Else 
-		
-		//CreateCountries 
-		
-		$Ref:=Open form window:C675("HDI"; Plain form window:K39:10; Horizontally centered:K39:1; Vertically centered:K39:4)
-		DIALOG:C40("HDI")
-		CLOSE WINDOW:C154
-		
-		If (<>Quit=True:C214)
-			QUIT 4D:C291
-		Else 
-			
-			$Ref:=Open form window:C675("HDI2"; Plain form window:K39:10; On the left:K39:2; At the top:K39:5)
-			DIALOG:C40("HDI2")
-			CLOSE WINDOW:C154
-			
-		End if 
-		
-End case 
 
+	: (Count parameters=0)
+
+		$found:=False
+		WINDOW LIST($windows)
+		For ($i; 1; Size of array($windows))
+			$window:=$windows{$i}
+			If (Window process($window)=1) && (Get window title($window)="")
+				GET WINDOW RECT($x; $y; $bottom; $right; $window)
+				CALL FORM($window; Formula(SET WINDOW RECT($x; $y; $bottom; $right; $window)))
+				$found:=True
+			End if 
+		End for 
+
+		If (Not($found))
+
+			For each ($dataClass; ds)
+				If (ds[$dataClass].getCount()=0)
+					$path:=File("/RESOURCES/"+$dataClass+".4ie").platformPath
+					If (Test path name($path)=Is a document)
+						$project:=File("/RESOURCES/"+$dataClass+".4si").getText()
+						IMPORT DATA($path; $project)
+					End if 
+				End if 
+			End for each 
+
+			CALL WORKER(1; Current method name; New object)
+
+		End if 
+
+	Else 
+
+		SET MENU BAR(1)
+
+		$window:=Open form window("HDI"; Plain form window; Horizontally centered; Vertically centered)
+		SET WINDOW TITLE(""; $window)
+		DIALOG("HDI"; *)
+
+End case 

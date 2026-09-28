@@ -64,7 +64,8 @@
 					"sizingX": "grow",
 					"fontFamily": "Segoe UI",
 					"fontSize": 12,
-					"text": "ID : "
+					"text": ":xliff:TableForms_LabelID",
+					"stroke": "automatic"
 				},
 				"S2_Text": {
 					"type": "text",
@@ -75,7 +76,8 @@
 					"sizingX": "grow",
 					"fontFamily": "Segoe UI",
 					"fontSize": 12,
-					"text": "WorkBook : "
+					"text": ":xliff:TableForms_LabelWorkBook",
+					"stroke": "automatic"
 				},
 				"Rectangle4": {
 					"type": "rectangle",
@@ -127,7 +129,7 @@
 					"dataSourceTypeHint": "object",
 					"fontFamily": "Segoe UI",
 					"fontSize": 12,
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -149,7 +151,7 @@
 					"top": 2,
 					"left": 69,
 					"height": 46,
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Splitter2": {
 					"type": "splitter",

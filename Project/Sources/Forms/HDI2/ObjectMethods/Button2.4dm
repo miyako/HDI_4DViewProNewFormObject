@@ -1,4 +1,4 @@
-C_TEXT:C284($path)
+var $path : Text
 ARRAY TEXT:C222($selected; 0)
 
 // look up file

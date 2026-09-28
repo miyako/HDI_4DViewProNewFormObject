@@ -32,9 +32,9 @@
 					"dataSource": "Tab Control",
 					"dataSourceTypeHint": "arrayText",
 					"labels": [
-						"Information",
-						"Demo 1",
-						"Demo 2"
+						":xliff:HDI2_TabInformation",
+						":xliff:HDI2_TabDemo1",
+						":xliff:HDI2_TabDemo2"
 					],
 					"action": "GotoPage",
 					"events": [
@@ -87,65 +87,65 @@
 					"top": 109,
 					"left": 355,
 					"width": 150,
-					"height": 34,
-					"text": "New",
+					"text": ":xliff:HDI2_BtnNew",
 					"focusable": false,
 					"method": "ObjectMethods/Button.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button1": {
 					"type": "button",
 					"top": 109,
 					"left": 688,
 					"width": 150,
-					"height": 34,
-					"text": "Save as",
+					"text": ":xliff:HDI2_BtnSaveAs",
 					"focusable": false,
 					"method": "ObjectMethods/Button1.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button2": {
 					"type": "button",
 					"top": 109,
 					"left": 518,
 					"width": 150,
-					"height": 34,
-					"text": "Open",
+					"text": ":xliff:HDI2_BtnOpen",
 					"focusable": false,
 					"method": "ObjectMethods/Button2.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button3": {
 					"type": "button",
 					"top": 109,
 					"left": 31,
 					"width": 150,
-					"height": 34,
-					"text": "Load example 1",
+					"text": ":xliff:HDI2_BtnLoadExample1",
 					"focusable": false,
 					"method": "ObjectMethods/Button3.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button4": {
 					"type": "button",
 					"top": 109,
 					"left": 193,
 					"width": 150,
-					"height": 34,
-					"text": "Load example 2",
+					"text": ":xliff:HDI2_BtnLoadExample2",
 					"focusable": false,
 					"method": "ObjectMethods/Button4.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Text": {
 					"type": "text",
@@ -156,7 +156,8 @@
 					"fontFamily": "Segoe UI",
 					"fontSize": 18,
 					"fontWeight": "bold",
-					"text": "4D View Pro example using document stored on disk"
+					"text": ":xliff:HDI2_TextDiskDoc",
+					"stroke": "automatic"
 				}
 			}
 		},
@@ -181,26 +182,26 @@
 					"top": 109,
 					"left": 194,
 					"width": 150,
-					"height": 34,
-					"text": "Save",
+					"text": ":xliff:HDI2_BtnSave",
 					"focusable": false,
 					"method": "ObjectMethods/Button5.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button6": {
 					"type": "button",
 					"top": 109,
 					"left": 31,
 					"width": 150,
-					"height": 34,
-					"text": "Load example",
+					"text": ":xliff:HDI2_BtnLoadExample",
 					"focusable": false,
 					"method": "ObjectMethods/Button6.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Text1": {
 					"type": "text",
@@ -211,7 +212,8 @@
 					"fontFamily": "Segoe UI",
 					"fontSize": 18,
 					"fontWeight": "bold",
-					"text": "4D View Pro example using document stored in database"
+					"text": ":xliff:HDI2_TextDbDoc",
+					"stroke": "automatic"
 				}
 			}
 		}

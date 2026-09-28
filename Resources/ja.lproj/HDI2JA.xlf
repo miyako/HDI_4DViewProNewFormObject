@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="HDI2_TabInformation" resname="HDI2_TabInformation">
+        <source>Information</source>
+        <target>情報</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TabDemo1" resname="HDI2_TabDemo1">
+        <source>Demo 1</source>
+        <target>デモ 1</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TabDemo2" resname="HDI2_TabDemo2">
+        <source>Demo 2</source>
+        <target>デモ 2</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnNew" resname="HDI2_BtnNew">
+        <source>New</source>
+        <target>新規</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnSaveAs" resname="HDI2_BtnSaveAs">
+        <source>Save as</source>
+        <target>名前を付けて保存</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnOpen" resname="HDI2_BtnOpen">
+        <source>Open</source>
+        <target>開く</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnLoadExample1" resname="HDI2_BtnLoadExample1">
+        <source>Load example 1</source>
+        <target>サンプル1を読み込む</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnLoadExample2" resname="HDI2_BtnLoadExample2">
+        <source>Load example 2</source>
+        <target>サンプル2を読み込む</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextDiskDoc" resname="HDI2_TextDiskDoc">
+        <source>4D View Pro example using document stored on disk</source>
+        <target>ディスクに保存されたドキュメントを使用する4D View Proのサンプル</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnSave" resname="HDI2_BtnSave">
+        <source>Save</source>
+        <target>保存</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnLoadExample" resname="HDI2_BtnLoadExample">
+        <source>Load example</source>
+        <target>サンプルを読み込む</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextDbDoc" resname="HDI2_TextDbDoc">
+        <source>4D View Pro example using document stored in database</source>
+        <target>データベースに保存されたドキュメントを使用する4D View Proのサンプル</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
