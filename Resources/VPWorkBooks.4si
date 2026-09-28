@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings-import-export table_no="5" format="4D" char_display_format="decimal" platform="automatic" all_records="true" table_name="VPWorkBooks">
+	<field table_no="5" field_no="1" name="ID" kind="int32"/>
+	<field table_no="5" field_no="2" name="WorkBook" kind="object"/>
+	<xml_settings export_xsl_mode="none"/>
+	<text_settings/>
+</settings-import-export>

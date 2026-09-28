@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<!--
+ * 
+ * 4DView Pro library 1.0.0
+ * 
+ * Copyright(c) 4D SAS.  All rights reserved.
+ * 
+ * 4D (the "Software") and the corresponding source code remain
+ * the exclusive property of 4D and/or its licensors and are protected by national
+ * and/or international legislations.
+ * 
+ * This file is part of the source code of the Software provided under the relevant
+ * 4D License Agreement available on http://www.4D.com/license whose compliance
+ * constitutes a prerequisite to any use of this file and more generally of the
+ * Software and the corresponding source code.
+ * 
+ -->
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <title>4D View Pro</title>
+    <link rel="stylesheet" href="./SpreadJS/css/gc.spread.sheets.excel2013white.css" />
+    <link rel="stylesheet" href="4dviewpro.css" />
+
+    <script type="application/javascript" src="./scripts/getTimezoneOffset.js"></script>
+
+___SPREAD_JS_INCLUDES___
+
+    <script type="application/javascript" src="./___LOCALIZATION___.lproj/gc.spread.sheets.resources.___LOCALIZATION___.min.js"></script>
+    <script type="application/javascript" src="./___LOCALIZATION___.lproj/contextMenu.js"></script>
+</head>
+
+<body>
+    <div id="formulaBar" class="hidden">
+        <input type="text" id="formulaTextBox" />
+    </div>
+    <div id="ss"></div>
+
+     <script>
+        var vp_localizedFolder = '___LOCALIZATION___.lproj';
+        (function () {
+             let lang = vp_localizedFolder.substring(0,2);
+			// call the language package to translate the command names
+			if ((lang != '') && (lang != 'en')) {
+				GC.Spread.CalcEngine.LanguagePackages.languagePackages(lang);
+            }
+            
+        })();
+        //# sourceURL=init_language.js
+    </script>
+
+    <script src="./scripts/init.js"></script>
+    <script src="./scripts/utils.js"></script>
+    <script src="./scripts/custom-types.js"></script>
+    <script src="./scripts/custom-function-helpers.js"></script>
+    <script src="./scripts/custom-functions.js"></script>
+
+    <script src="./4dviewpro.js"></script>
+
+    <!-- View Pro Commands -->
+___COMMAND_JS_INCLUDES___
+
+</body>
+
+</html>

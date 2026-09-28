@@ -1,0 +1,384 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerBody": 185,
+	"markerBreak": 185,
+	"markerFooter": 195,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"vRecNum": {
+					"type": "input",
+					"top": 112,
+					"left": 669,
+					"width": 100,
+					"height": 13,
+					"dataSource": "vRecNum",
+					"stroke": "#000000",
+					"fontSize": 9,
+					"focusable": false,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Record Number"
+					},
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/vRecNum.4dm",
+					"events": [
+						"onLoad",
+						"onHeader",
+						"onPrintingBreak"
+					]
+				},
+				"ID": {
+					"type": "input",
+					"top": 143,
+					"left": 392,
+					"width": 56,
+					"height": 16,
+					"dataSource": "[VPWorkBooks:5]ID:1",
+					"dataSourceTypeHint": "integer",
+					"textAlign": "left",
+					"fontSize": 13,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"WorkBook": {
+					"type": "input",
+					"top": 169,
+					"left": 392,
+					"width": 362,
+					"height": 16,
+					"dataSource": "[VPWorkBooks:5]WorkBook:2",
+					"dataSourceTypeHint": "object",
+					"textAlign": "left",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text5": {
+					"type": "text",
+					"top": 110,
+					"left": 24,
+					"width": 630,
+					"height": 16,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"text": "VPWorkBooks"
+				},
+				"Line6": {
+					"type": "line",
+					"top": 94,
+					"left": 19,
+					"width": 759,
+					"sizingX": "grow"
+				},
+				"bFirst": {
+					"type": "button",
+					"top": 16,
+					"left": 21,
+					"width": 48,
+					"height": 65,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/First Record"
+					},
+					"action": "firstRecord",
+					"textAlign": "center",
+					"stroke": "#000000",
+					"focusable": false,
+					"text": "First",
+					"icon": "/RESOURCES/Images/Buttons/Glass/FirstRecord.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"events": [
+						"onClick"
+					]
+				},
+				"bPrevious": {
+					"type": "button",
+					"top": 16,
+					"left": 84,
+					"width": 48,
+					"height": 65,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Previous Record"
+					},
+					"action": "previousRecord",
+					"textAlign": "center",
+					"stroke": "#000000",
+					"focusable": false,
+					"text": "Previous",
+					"icon": "/RESOURCES/Images/Buttons/Glass/PreviousRecord.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"events": [
+						"onClick"
+					]
+				},
+				"bNext": {
+					"type": "button",
+					"top": 16,
+					"left": 147,
+					"width": 48,
+					"height": 65,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Next Record"
+					},
+					"action": "nextRecord",
+					"textAlign": "center",
+					"stroke": "#000000",
+					"focusable": false,
+					"text": "Next",
+					"icon": "/RESOURCES/Images/Buttons/Glass/NextRecord.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"events": [
+						"onClick"
+					]
+				},
+				"bLast": {
+					"type": "button",
+					"top": 16,
+					"left": 210,
+					"width": 48,
+					"height": 65,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Last Record"
+					},
+					"action": "lastRecord",
+					"textAlign": "center",
+					"stroke": "#000000",
+					"focusable": false,
+					"text": "Last",
+					"icon": "/RESOURCES/Images/Buttons/Glass/LastRecord.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"events": [
+						"onClick"
+					]
+				},
+				"bFirstPage": {
+					"type": "button",
+					"top": 16,
+					"left": 273,
+					"width": 51,
+					"height": 65,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/First Page"
+					},
+					"action": "firstPage",
+					"textAlign": "center",
+					"stroke": "#000000",
+					"focusable": false,
+					"text": "First page",
+					"icon": "/RESOURCES/Images/Buttons/Glass/FirstPage.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"events": [
+						"onClick"
+					]
+				},
+				"bLastPage": {
+					"type": "button",
+					"top": 16,
+					"left": 339,
+					"width": 50,
+					"height": 65,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Last Page"
+					},
+					"action": "lastPage",
+					"textAlign": "center",
+					"stroke": "#000000",
+					"focusable": false,
+					"text": "Last page",
+					"icon": "/RESOURCES/Images/Buttons/Glass/LastPage.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"events": [
+						"onClick"
+					]
+				},
+				"bDelete": {
+					"type": "button",
+					"top": 16,
+					"left": 404,
+					"width": 48,
+					"height": 65,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Delete Record"
+					},
+					"action": "deleteRecord",
+					"textAlign": "center",
+					"stroke": "#000000",
+					"focusable": false,
+					"text": "Delete",
+					"icon": "/RESOURCES/Images/Buttons/Glass/DeleteRecord.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"events": [
+						"onClick"
+					]
+				},
+				"bCancel": {
+					"type": "button",
+					"top": 16,
+					"left": 467,
+					"width": 48,
+					"height": 65,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Cancel"
+					},
+					"action": "cancel",
+					"textAlign": "center",
+					"stroke": "#000000",
+					"focusable": false,
+					"text": "Cancel",
+					"icon": "/RESOURCES/Images/Buttons/Glass/Cancel.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"events": [
+						"onClick"
+					]
+				},
+				"bValidate": {
+					"type": "button",
+					"top": 16,
+					"left": 530,
+					"width": 48,
+					"height": 65,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/OK"
+					},
+					"action": "accept",
+					"textAlign": "center",
+					"stroke": "#000000",
+					"focusable": false,
+					"text": "Validate",
+					"icon": "/RESOURCES/Images/Buttons/Glass/Validate.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text7": {
+					"type": "text",
+					"top": 143,
+					"left": 311,
+					"width": 76,
+					"height": 16,
+					"textAlign": "right",
+					"fontSize": 13,
+					"text": "ID : "
+				},
+				"Text8": {
+					"type": "text",
+					"top": 169,
+					"left": 311,
+					"width": 76,
+					"height": 16,
+					"textAlign": "right",
+					"fontSize": 13,
+					"text": "WorkBook : "
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {
+				"objects": [
+					"vRecNum",
+					"Text5",
+					"Line6"
+				]
+			},
+			"View 3": {
+				"objects": [
+					"bFirst",
+					"bPrevious",
+					"bNext",
+					"bLast",
+					"bFirstPage",
+					"bLastPage",
+					"bDelete",
+					"bCancel",
+					"bValidate"
+				]
+			},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

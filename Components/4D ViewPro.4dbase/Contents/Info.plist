@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+
+  <dict>
+    <key>NSHumanReadableCopyright</key>
+    <string>©4D SAS 2017-2026</string>
+    <key>CFBundleShortVersionString</key>
+    <string>21.6</string>
+    <key>CFBundleLongVersionString</key>
+    <string>21.6 - 6a5b46f24380dcc2546bf61f118fcf7cea29de88</string>
+    <key>CFBundleGetInfoString</key>
+    <string>4D ViewPro</string>
+    <key>CFBundleName</key>
+    <string>4D ViewPro</string>
+    <key>CFBundleVersion</key>
+    <string>21.6</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.4d.4dviewpro</string>
+    <key>CFBundleDisplayName</key>
+    <string>4D ViewPro</string>
+    <key>CFBundlePackageType</key>
+    <string>BNDL</string>
+    <key>com.4D.compiler.version</key>
+    <string>21</string>
+    <key>com.4D.compiler.build</key>
+    <string>100341</string>
+    <key>com.4D.git.commit.hash</key>
+    <string>6a5b46f24380dcc2546bf61f118fcf7cea29de88</string>
+  </dict>
+
+</plist>

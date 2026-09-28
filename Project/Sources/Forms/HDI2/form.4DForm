@@ -1,0 +1,219 @@
+{
+	"destination": "detailScreen",
+	"windowTitle": "<None>",
+	"windowMinWidth": 720,
+	"windowMinHeight": 800,
+	"width": 1260,
+	"height": 800,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Tab Control": {
+					"type": "tab",
+					"top": 20,
+					"left": 20,
+					"width": 1220,
+					"height": 767,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "Tab Control",
+					"dataSourceTypeHint": "arrayText",
+					"labels": [
+						"Information",
+						"Demo 1",
+						"Demo 2"
+					],
+					"action": "GotoPage",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Variable": {
+					"type": "input",
+					"top": 58,
+					"left": 38,
+					"width": 1184,
+					"height": 608,
+					"dataSource": "textinfo",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"ViewProArea": {
+					"type": "view",
+					"top": 154,
+					"left": 34,
+					"width": 1190,
+					"height": 610,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSourceTypeHint": "object",
+					"method": "ObjectMethods/ViewProArea.4dm",
+					"events": [
+						"onVPReady"
+					]
+				},
+				"Button": {
+					"type": "button",
+					"top": 109,
+					"left": 355,
+					"width": 150,
+					"height": 34,
+					"text": "New",
+					"focusable": false,
+					"method": "ObjectMethods/Button.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 109,
+					"left": 688,
+					"width": 150,
+					"height": 34,
+					"text": "Save as",
+					"focusable": false,
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 109,
+					"left": 518,
+					"width": 150,
+					"height": 34,
+					"text": "Open",
+					"focusable": false,
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button3": {
+					"type": "button",
+					"top": 109,
+					"left": 31,
+					"width": 150,
+					"height": 34,
+					"text": "Load example 1",
+					"focusable": false,
+					"method": "ObjectMethods/Button3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button4": {
+					"type": "button",
+					"top": 109,
+					"left": 193,
+					"width": 150,
+					"height": 34,
+					"text": "Load example 2",
+					"focusable": false,
+					"method": "ObjectMethods/Button4.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 56,
+					"left": 34,
+					"width": 1190,
+					"height": 40,
+					"fontFamily": "Segoe UI",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"text": "4D View Pro example using document stored on disk"
+				}
+			}
+		},
+		{
+			"objects": {
+				"ViewProArea1": {
+					"type": "view",
+					"top": 154,
+					"left": 34,
+					"width": 1190,
+					"height": 558,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSourceTypeHint": "object",
+					"method": "ObjectMethods/ViewProArea1.4dm",
+					"events": [
+						"onVPReady"
+					]
+				},
+				"Button5": {
+					"type": "button",
+					"top": 109,
+					"left": 194,
+					"width": 150,
+					"height": 34,
+					"text": "Save",
+					"focusable": false,
+					"method": "ObjectMethods/Button5.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button6": {
+					"type": "button",
+					"top": 109,
+					"left": 31,
+					"width": 150,
+					"height": 34,
+					"text": "Load example",
+					"focusable": false,
+					"method": "ObjectMethods/Button6.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 56,
+					"left": 34,
+					"width": 1190,
+					"height": 40,
+					"fontFamily": "Segoe UI",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"text": "4D View Pro example using document stored in database"
+				}
+			}
+		}
+	]
+}

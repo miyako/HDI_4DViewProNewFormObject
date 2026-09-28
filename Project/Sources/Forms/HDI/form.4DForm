@@ -1,0 +1,154 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"width": 360,
+	"height": 320,
+	"menuBar": "MainMenu",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"TxtSorry1": {
+					"type": "text",
+					"top": 207,
+					"left": 20,
+					"width": 320,
+					"height": 77,
+					"visibility": "hidden",
+					"stroke": "#FF4D00",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality."
+				},
+				"TxtInfo1": {
+					"type": "text",
+					"top": 110,
+					"left": 40,
+					"width": 151,
+					"height": 18,
+					"class": "HDI",
+					"fontWeight": "bold",
+					"text": "How Do I..."
+				},
+				"TxtInfo2": {
+					"type": "text",
+					"top": 145,
+					"left": 40,
+					"width": 280,
+					"height": 37,
+					"class": "HDI",
+					"fontWeight": "bold",
+					"text": "… create and save document with 4D View Pro?"
+				},
+				"TxtSorry2": {
+					"type": "text",
+					"top": 128,
+					"left": 14,
+					"width": 320,
+					"height": 81,
+					"visibility": "hidden",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Sorry, this “How do I” (HDI) \rexample must be used with\ra newer version of 4D\r(v16 {R4} and above)."
+				},
+				"Picture3": {
+					"type": "picture",
+					"top": 20,
+					"left": 20,
+					"width": 64,
+					"height": 64,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/4D.png"
+				},
+				"TxtVersion": {
+					"type": "text",
+					"top": 68,
+					"left": 120,
+					"width": 220,
+					"height": 16,
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"text": "4D v16 R4 and above…"
+				},
+				"BtnDemo": {
+					"type": "button",
+					"top": 280,
+					"left": 250,
+					"width": 90,
+					"height": 20,
+					"dataSource": "Demo",
+					"action": "Accept",
+					"text": "Demo",
+					"class": "default",
+					"focusable": false,
+					"defaultButton": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"TxtLicence": {
+					"type": "text",
+					"top": 136,
+					"left": 56,
+					"width": 249,
+					"height": 52,
+					"visibility": "hidden",
+					"textAlign": "center",
+					"fontFamily": "System Font",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "Sorry but this example requires a valid 4D View / 4D VIew Pro license"
+				}
+			}
+		}
+	],
+	"editor": {
+		"defaultView": "View 1",
+		"activeView": "View 5",
+		"views": {
+			"View 1": {
+				"selectable": false
+			},
+			"View 2": {
+				"selectable": false,
+				"objects": [
+					"TxtInfo1",
+					"TxtInfo2"
+				]
+			},
+			"BAD 4D VERSION": {
+				"objects": [
+					"TxtSorry1",
+					"TxtSorry2"
+				]
+			},
+			"View 4": {
+				"selectable": false
+			},
+			"View 5": {
+				"objects": [
+					"TxtLicence"
+				]
+			},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}
