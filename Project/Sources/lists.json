@@ -1,0 +1,166 @@
+{
+	"FontColor": {
+		"lineHeight": 18,
+		"editable": true,
+		"items": [
+			{
+				"text": "Black",
+				"ref": 10,
+				"editable": false,
+				"action": "Color?value=Black"
+			},
+			{
+				"text": "Grey",
+				"ref": 11,
+				"editable": false,
+				"action": "Color?value=#858585"
+			},
+			{
+				"text": "White",
+				"ref": 19,
+				"editable": false,
+				"action": "Color?value=White"
+			},
+			{
+				"text": "Cold colors",
+				"ref": 1,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"items": [
+						{
+							"text": "Blue",
+							"ref": 2,
+							"editable": true,
+							"action": "Color?value=Blue"
+						},
+						{
+							"text": "Green",
+							"ref": 3,
+							"editable": true,
+							"action": "Color?value=Green"
+						},
+						{
+							"text": "Purple",
+							"ref": 4,
+							"editable": true,
+							"action": "Color?value=Purple"
+						}
+					]
+				}
+			},
+			{
+				"text": "Warm colors",
+				"ref": 5,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"items": [
+						{
+							"text": "Orange",
+							"ref": 6,
+							"editable": true,
+							"action": "Color?value=Orange"
+						},
+						{
+							"text": "Red",
+							"ref": 8,
+							"editable": true,
+							"action": "Color?value=Red"
+						},
+						{
+							"text": "Yellow",
+							"ref": 9,
+							"editable": true,
+							"action": "Color?value=Yellow"
+						}
+					]
+				}
+			}
+		]
+	},
+	"BgColor": {
+		"lineHeight": 18,
+		"editable": true,
+		"items": [
+			{
+				"text": "Black",
+				"ref": 10,
+				"editable": false,
+				"action": "backgroundColor?value=Black"
+			},
+			{
+				"text": "None",
+				"ref": 11,
+				"editable": false,
+				"action": "backgroundColor?value=transparent"
+			},
+			{
+				"text": "White",
+				"ref": 10,
+				"editable": false,
+				"action": "backgroundColor?value=White"
+			},
+			{
+				"text": "Cold colors",
+				"ref": 1,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"items": [
+						{
+							"text": "Blue",
+							"ref": 2,
+							"editable": true,
+							"action": "backgroundColor?value=Blue"
+						},
+						{
+							"text": "Green",
+							"ref": 3,
+							"editable": true,
+							"action": "backgroundColor?value=Green"
+						},
+						{
+							"text": "Purple",
+							"ref": 4,
+							"editable": true,
+							"action": "backgroundColor?value=Purple"
+						}
+					]
+				}
+			},
+			{
+				"text": "Warm colors",
+				"ref": 5,
+				"editable": true,
+				"subTree": {
+					"lineHeight": 18,
+					"editable": false,
+					"items": [
+						{
+							"text": "Orange",
+							"ref": 6,
+							"editable": true,
+							"action": "backgroundColor?value=Orange"
+						},
+						{
+							"text": "Red",
+							"ref": 8,
+							"editable": true,
+							"action": "backgroundColor?value=Red"
+						},
+						{
+							"text": "Yellow",
+							"ref": 9,
+							"editable": true,
+							"action": "backgroundColor?value=Yellow"
+						}
+					]
+				}
+			}
+		]
+	}
+}

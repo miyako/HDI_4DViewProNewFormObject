@@ -1,0 +1,60 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Plugin Area": {
+					"type": "plugin",
+					"top": 35,
+					"left": 39,
+					"width": 349,
+					"height": 201,
+					"events": [
+						"onPluginArea"
+					]
+				},
+				"ViewProArea": {
+					"type": "view",
+					"top": 248,
+					"left": 41,
+					"width": 347,
+					"height": 204,
+					"dataSourceTypeHint": "object"
+				},
+				"Web Area": {
+					"type": "webArea",
+					"top": 467,
+					"left": 44,
+					"width": 344,
+					"height": 187,
+					"contextMenu": "none"
+				}
+			}
+		}
+	]
+}

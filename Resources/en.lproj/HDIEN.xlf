@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Forms/HDI/form.4DForm" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="HDI_TxtSorry1" resname="HDI_TxtSorry1">
+        <source>Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</source>
+        <target>Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</target>
+      </trans-unit>
+      <trans-unit id="HDI_TxtInfo1" resname="HDI_TxtInfo1">
+        <source>How Do I...</source>
+        <target>How Do I...</target>
+      </trans-unit>
+      <trans-unit id="HDI_TxtInfo2" resname="HDI_TxtInfo2">
+        <source>&#8230; create and save document with 4D View Pro?</source>
+        <target>&#8230; create and save document with 4D View Pro?</target>
+      </trans-unit>
+      <trans-unit id="HDI_TxtSorry2" resname="HDI_TxtSorry2">
+        <source>Sorry, this &#8220;How do I&#8221; (HDI) &#13;example must be used with&#13;a newer version of 4D&#13;(v16 {R4} and above).</source>
+        <target>Sorry, this &#8220;How do I&#8221; (HDI) &#13;example must be used with&#13;a newer version of 4D&#13;(v16 {R4} and above).</target>
+      </trans-unit>
+      <trans-unit id="HDI_TxtVersion" resname="HDI_TxtVersion">
+        <source>4D v16 R4 and above&#8230;</source>
+        <target>4D v16 R4 and above&#8230;</target>
+      </trans-unit>
+      <trans-unit id="HDI_BtnDemo" resname="HDI_BtnDemo">
+        <source>Demo</source>
+        <target>Demo</target>
+      </trans-unit>
+      <trans-unit id="HDI_TxtLicence" resname="HDI_TxtLicence">
+        <source>Sorry but this example requires a valid 4D View / 4D VIew Pro license</source>
+        <target>Sorry but this example requires a valid 4D View / 4D VIew Pro license</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

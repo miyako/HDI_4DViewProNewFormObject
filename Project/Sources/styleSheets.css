@@ -1,0 +1,17 @@
+/* Cross-platform dark mode support.
+   Most objects use "automatic"/"automaticAlternate" fill and stroke values
+   directly in form.4DForm, which already adapt to the system colour scheme
+   without any CSS. This stylesheet only covers classes that need a
+   deliberately branded (non-automatic) colour per scheme. */
+
+@media (prefers-color-scheme: light) {
+	.hdi-warning {
+		stroke: #FF4D00;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.hdi-warning {
+		stroke: #FF8040;
+	}
+}

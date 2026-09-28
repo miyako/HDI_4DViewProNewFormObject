@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/TableForms" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="TableForms_HeaderVPWorkBooks" resname="TableForms_HeaderVPWorkBooks">
+        <source>VPWorkBooks</source>
+        <target>VPWorkBooks</target>
+      </trans-unit>
+      <trans-unit id="TableForms_HeaderInformations" resname="TableForms_HeaderInformations">
+        <source>Informations</source>
+        <target>Informations</target>
+      </trans-unit>
+      <trans-unit id="TableForms_LabelID" resname="TableForms_LabelID">
+        <source>ID : </source>
+        <target>ID : </target>
+      </trans-unit>
+      <trans-unit id="TableForms_LabelWorkBook" resname="TableForms_LabelWorkBook">
+        <source>WorkBook : </source>
+        <target>WorkBook : </target>
+      </trans-unit>
+      <trans-unit id="TableForms_LabelLabel" resname="TableForms_LabelLabel">
+        <source>Label : </source>
+        <target>ラベル : </target>
+      </trans-unit>
+      <trans-unit id="TableForms_BtnFirst" resname="TableForms_BtnFirst">
+        <source>First</source>
+        <target>先頭</target>
+      </trans-unit>
+      <trans-unit id="TableForms_BtnPrevious" resname="TableForms_BtnPrevious">
+        <source>Previous</source>
+        <target>前へ</target>
+      </trans-unit>
+      <trans-unit id="TableForms_BtnNext" resname="TableForms_BtnNext">
+        <source>Next</source>
+        <target>次へ</target>
+      </trans-unit>
+      <trans-unit id="TableForms_BtnLast" resname="TableForms_BtnLast">
+        <source>Last</source>
+        <target>末尾</target>
+      </trans-unit>
+      <trans-unit id="TableForms_BtnFirstPage" resname="TableForms_BtnFirstPage">
+        <source>First page</source>
+        <target>先頭ページ</target>
+      </trans-unit>
+      <trans-unit id="TableForms_BtnLastPage" resname="TableForms_BtnLastPage">
+        <source>Last page</source>
+        <target>最終ページ</target>
+      </trans-unit>
+      <trans-unit id="TableForms_BtnDelete" resname="TableForms_BtnDelete">
+        <source>Delete</source>
+        <target>削除</target>
+      </trans-unit>
+      <trans-unit id="TableForms_BtnValidate" resname="TableForms_BtnValidate">
+        <source>Validate</source>
+        <target>検証</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
